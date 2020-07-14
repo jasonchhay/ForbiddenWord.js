@@ -1,4 +1,4 @@
-require("dotenv").config({ path: "./process.env" });
+require("dotenv").config({ path: "./development.env" });
 const TOKEN = process.env.BOT_TOKEN;
 
 const Discord = require("discord.js");
